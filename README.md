@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm MOHAMED EL MACHHOUNE</h1>
 
-<p align="left"> <a href="#"><img width="100" src="https://media.licdn.com/dms/image/D4E22AQFDDJY_58lIqQ/feedshare-shrink_1280/0/1680778894055?e=1686182400&v=beta&t=dxNE2MloleH-uZHI30emfJmNlAstXm30hKA4A6z-no0" alt="elmachhoune" /></a> </p>
+<p align="center"> <a href="#"><img width="400" src="https://media.licdn.com/dms/image/D4E22AQFDDJY_58lIqQ/feedshare-shrink_1280/0/1680778894055?e=1686182400&v=beta&t=dxNE2MloleH-uZHI30emfJmNlAstXm30hKA4A6z-no0" alt="elmachhoune" /></a> </p>
 
 <h3 align="center">Full-stack web developer</h3>
 
