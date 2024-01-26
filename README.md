@@ -5,7 +5,7 @@
     <img src="https://readme-typing-svg.demolab.com/?lines=Full-stack%20web%20developer;Experienced%20UI%2FUX%20Designer;3%2B%20years%20of%20coding%20experience;Always%20learning%20new%20things&font=Fira%20Code&center=true&width=440&height=45&color=fff&vCenter=true&pause=500&size=22" /></a>
 </p>
 
-<h3 align="center">Full-stack web developer</h3>
+<h3 align="center">Full-stack web developer and UX/UI Designer</h3>
 
 
 
@@ -31,7 +31,7 @@
 <a href="https://twitter.com/med_elmachhoune" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="med_elmachhoune" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/mohamed-el-machhoune" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mohamed-el-machhoune" height="30" width="40" /></a>
 <a href="https://stackoverflow.com/users/21596363" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="21596363" height="30" width="40" /></a>
-<a href="https://fb.com/medo.elmachhoune" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="medo.elmachhoune" height="30" width="40" /></a>
+<a href="https://fb.com/m.elmachhoune" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="m.elmachhoune" height="30" width="40" /></a>
 <a href="https://instagram.com/mohamed.elmachhoune" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="mohamed.elmachhoune" height="30" width="40" /></a>
 <a href="https://www.youtube.com/c/elmachhoune" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="elmachhoune" height="30" width="40" /></a>
 </p>
