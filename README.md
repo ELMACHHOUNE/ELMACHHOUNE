@@ -22,7 +22,7 @@
 
 - 📫 How to reach me **Business.elmachhoune@gmail.com**
 
-- 📄 Know about my experiences [https://me-qr.com/mobile/pdf/14475400](https://me-qr.com/mobile/pdf/14475400)
+- 📄 Know about my experiences https://cvdesignr.com/p/64cfc7c3b75ae
 
 - ⚡ Fun fact **I think I am funny 😜**
 
