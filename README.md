@@ -16,7 +16,7 @@
 
 - 👨‍💻 All of my projects are available at [https://elmachhoune.me/](https://elmachhoune.me/)
 
-- 📝 I regularly write articles on [https://www.facebook.com/groups/devinfodarijamaroc](https://www.facebook.com/groups/devinfodarijamaroc)
+- 📝 I regularly write articles on [https://www.facebook.com/groups/devinfodarijamaroc](https://www.facebook.com/groups/devdarijamaroc)
 
 - 💬 Ask me about **Anything**
 
