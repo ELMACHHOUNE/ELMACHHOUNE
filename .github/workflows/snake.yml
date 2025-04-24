@@ -16,6 +16,7 @@ jobs:
           github_user_name: ELMACHHOUNE
           gif_out_path: dist/snake.gif
           svg_out_path: dist/snake.svg
+          snake_color: "blue"
       - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
