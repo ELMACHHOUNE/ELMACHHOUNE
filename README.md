@@ -109,13 +109,16 @@
 
 ###
 
-<!-- Contribution Graph -->
+<!-- Snake animation -->
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ELMACHHOUNE/ELMACHHOUNE/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ELMACHHOUNE/ELMACHHOUNE/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ELMACHHOUNE/ELMACHHOUNE/output/github-contribution-grid-snake.svg" width="100%">
-  </picture>
+  <img src="https://raw.githubusercontent.com/ELMACHHOUNE/ELMACHHOUNE/output/snake.svg" alt="Snake animation" />
+</div>
+
+###
+
+<!-- Pacman contribution graph -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ELMACHHOUNE/ELMACHHOUNE/output/pacman-contribution-graph.svg" alt="Pacman contribution graph" width="100%" />
 </div>
 
 ###
