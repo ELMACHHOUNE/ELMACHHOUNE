@@ -1,4 +1,4 @@
-name: Generate Pacman
+name: Generate Contribution Graph
 
 on:
   schedule:
@@ -9,76 +9,26 @@ on:
       - main
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
       - uses: actions/checkout@v3
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+
+      - uses: Platane/snk@v3
         with:
-          node-version: "16"
-      - name: Install dependencies
-        run: |
-          npm install -g @octokit/rest
-          npm install -g svgo
-      - name: Generate Pacman graph
-        run: |
-          mkdir -p output
-          node -e "
-            const { Octokit } = require('@octokit/rest');
-            const fs = require('fs');
-            const path = require('path');
-            
-            const octokit = new Octokit({
-              auth: process.env.GITHUB_TOKEN
-            });
-            
-            async function getContributions() {
-              try {
-                const response = await octokit.request('GET /users/{username}/contributions', {
-                  username: 'ELMACHHOUNE',
-                  headers: {
-                    'Accept': 'application/vnd.github.v3+json'
-                  }
-                });
-                return response.data;
-              } catch (error) {
-                console.error('Error fetching contributions:', error);
-                return Array(30).fill().map(() => ({ contributions: Math.floor(Math.random() * 10) }));
-              }
-            }
-            
-            async function generatePacmanGraph() {
-              const contributions = await getContributions();
-              
-              let svgContent = '<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 800 400\">';
-              svgContent += '<rect width=\"800\" height=\"400\" fill=\"#0d1117\" />';
-              svgContent += '<circle cx=\"400\" cy=\"200\" r=\"150\" fill=\"#FFD700\" />';
-              svgContent += '<path d=\"M400,200 L550,200 A150,150 0 0,0 400,50 Z\" fill=\"#0d1117\" />';
-              
-              let x = 50;
-              contributions.forEach((contrib, index) => {
-                const y = 50 + (index % 10) * 30;
-                const size = Math.min(20, contrib.contributions / 10 + 5);
-                svgContent += `<circle cx=\"${x}\" cy=\"${y}\" r=\"${size}\" fill=\"#4CAF50\" />`;
-                if ((index + 1) % 10 === 0) x += 30;
-              });
-              
-              svgContent += '</svg>';
-              
-              fs.writeFileSync(path.join('output', 'pacman-contribution-graph.svg'), svgContent);
-              
-              const lightSvgContent = svgContent.replace('#0d1117', '#ffffff').replace('#FFD700', '#FFA500');
-              fs.writeFileSync(path.join('output', 'pacman-contribution-graph-light.svg'), lightSvgContent);
-              
-              console.log('Pacman graph generated successfully!');
-            }
-            
-            generatePacmanGraph();
-          "
-      - name: Deploy to GitHub Pages
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push to output branch
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./output
+          publish_dir: ./dist
           publish_branch: output
