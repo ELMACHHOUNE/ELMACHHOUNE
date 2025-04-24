@@ -104,21 +104,11 @@
   <img src="https://raw.githubusercontent.com/ELMACHHOUNE/ELMACHHOUNE/output/snake.gif" alt="Snake animation" />
 </div>
 
-<!-- Backup snake animation -->
-<div align="center">
-  <img src="https://github.com/ELMACHHOUNE/ELMACHHOUNE/blob/output/snake.gif?raw=true" alt="Snake animation" />
-</div>
-
 ###
 
 <!-- Pacman animation -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/ELMACHHOUNE/ELMACHHOUNE/output/pacman-contribution-graph.svg" alt="Pacman contribution graph" width="100%" />
-</div>
-
-<!-- Backup Pacman animation -->
-<div align="center">
-  <img src="https://github.com/ELMACHHOUNE/ELMACHHOUNE/blob/output/pacman-contribution-graph.svg?raw=true" alt="Pacman contribution graph" width="100%" />
 </div>
 
 ###
