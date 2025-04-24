@@ -57,8 +57,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
   <img width="12" />
   <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" height="40" alt="postman logo"  />
-  <img width="12" />
-  <img src="https://www.vectorlogo.zone/logos/rest/rest-icon.svg" height="40" alt="rest api logo"  />
 </div>
 
 <h2 align="center">🎨 Design Tools</h2>
@@ -105,20 +103,6 @@
 
 <div align="center">
   <img src="https://profile-counter.glitch.me/ELMACHHOUNE/count.svg?"  />
-</div>
-
-###
-
-<!-- Snake animation -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/ELMACHHOUNE/ELMACHHOUNE/output/snake.svg" alt="Snake animation" />
-</div>
-
-###
-
-<!-- Pacman contribution graph -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/ELMACHHOUNE/ELMACHHOUNE/output/pacman-contribution-graph.svg" alt="Pacman contribution graph" width="100%" />
 </div>
 
 ###
