@@ -116,15 +116,12 @@
 
 ###
 
-<!-- Pacman animation -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/ELMACHHOUNE/ELMACHHOUNE/output/pacman-contribution-graph.svg" alt="Pacman contribution graph" width="100%" />
-</div>
-
-<!-- Backup Pacman animation -->
-<div align="center">
-  <img src="https://github.com/ELMACHHOUNE/ELMACHHOUNE/blob/output/pacman-contribution-graph.svg?raw=true" alt="Pacman contribution graph" width="100%" />
-</div>
+<!-- Pacman contribution graph -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ELMACHHOUNE/ELMACHHOUNE/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ELMACHHOUNE/ELMACHHOUNE/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/ELMACHHOUNE/ELMACHHOUNE/output/pacman-contribution-graph.svg" width="100%">
+</picture>
 
 ###
 
