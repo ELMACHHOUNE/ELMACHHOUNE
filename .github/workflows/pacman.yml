@@ -10,10 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: jstnm/pacman-contribution-graph@v1
+      - uses: abozanona/pacman-contribution-graph@main
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          username: ELMACHHOUNE
+          github_user_name: ELMACHHOUNE
           output_path: dist/pacman-contribution-graph.svg
           dark_output_path: dist/pacman-contribution-graph-dark.svg
       - uses: crazy-max/ghaction-github-pages@v3
