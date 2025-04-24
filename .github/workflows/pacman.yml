@@ -31,12 +31,17 @@ jobs:
             });
             
             async function getContributions() {
-              const response = await octokit.request('GET /repos/{owner}/{repo}/contributors', {
-                owner: 'ELMACHHOUNE',
-                repo: 'ELMACHHOUNE'
-              });
-              
-              return response.data;
+              try {
+                const response = await octokit.request('GET /repos/{owner}/{repo}/contributors', {
+                  owner: 'ELMACHHOUNE',
+                  repo: 'ELMACHHOUNE'
+                });
+                
+                return response.data;
+              } catch (error) {
+                console.error('Error fetching contributions:', error);
+                return [];
+              }
             }
             
             async function generatePacmanGraph() {
@@ -66,6 +71,8 @@ jobs:
               // Create dark version
               const darkSvgContent = svgContent.replace('#FFD700', '#FFA500').replace('#4CAF50', '#8BC34A');
               fs.writeFileSync(path.join('dist', 'pacman-contribution-graph-dark.svg'), darkSvgContent);
+              
+              console.log('Pacman graph generated successfully!');
             }
             
             generatePacmanGraph();
