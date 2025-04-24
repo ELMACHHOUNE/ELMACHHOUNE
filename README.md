@@ -137,7 +137,12 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/ELMACHHOUNE/ELMACHHOUNE/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/ELMACHHOUNE/ELMACHHOUNE/output/snake.gif" alt="Snake animation" />
+
+<!-- Backup snake animation -->
+<p align="center">
+  <img src="https://github.com/ELMACHHOUNE/ELMACHHOUNE/blob/output/snake.gif?raw=true" alt="Snake animation" />
+</p>
 
 ###
 

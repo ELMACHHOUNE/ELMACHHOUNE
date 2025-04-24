@@ -10,10 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: Platane/snk/svg-only@v3
+      - uses: Platane/snk@master
+        id: snake-gif
         with:
           github_user_name: ELMACHHOUNE
-          outputs: dist/snake.svg?palette=github-dark
+          gif_out_path: dist/snake.gif
+          svg_out_path: dist/snake.svg
       - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
