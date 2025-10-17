@@ -5,11 +5,7 @@
 <h1 align="center">Hi 👋, I'm Mohamed EL MACHHOUNE</h1>
 <h3 align="center">A passionate Software Engineer & Graphic Designer from Morocco 🇲🇦</h3>
 
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=elmachhoune&theme=dracula&no-frame=false&no-bg=false&margin-w=4" alt="elmachhoune" />
-  </a>
-</p>
+
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ELMACHHOUNE&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
