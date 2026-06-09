@@ -1,10 +1,18 @@
 <div align="center">
+
   <img height="150" src="https://media4.giphy.com/media/bGgsc5mWoryfgKBx1u/200w.gif?cid=6c09b952ryk84gojonlsyp2mcytf9xhrav4vfn2m58rluwue&ep=v1_gifs_search&rid=200w.gif&ct=g"  />
+
 </div>
 
 <h1 align="center">Hi 👋, I'm Mohamed EL MACHHOUNE</h1>
+
 <h3 align="center">A passionate Software Engineer & Graphic Designer from Morocco 🇲🇦</h3>
 
+<div align="center">
+  <a href="https://user-badge.committers.top/morocco_private/ELMACHHOUNE">
+    <img src="https://user-badge.committers.top/morocco_private/ELMACHHOUNE.svg" alt="committers.top badge" />
+  </a>
+</div>
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ELMACHHOUNE&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
@@ -95,8 +103,6 @@
 </div>
 
 <br/>
-
-
 
 ###
 
