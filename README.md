@@ -24,8 +24,13 @@ const mohamed = {
   name:     "Mohamed EL MACHHOUNE",
   role:     ["Full Stack Engineer", "Graphic Designer"],
   location: "Morocco 🇲🇦",
-  stack:    ["MongoDB", "Express", "React", "Node.js", "Next.js", "TypeScript"],
-  design:   ["Figma", "Illustrator", "Photoshop", "After Effects"],
+  stack:    ["MongoDB", "Express", "React", "Node.js", "Next.js", "NestJS", "FastAPI", "Three.js", "TypeScript"],
+  styling:  ["Tailwind CSS", "Bootstrap", "CSS3", "SCSS/SASS"],
+  ui_libs:  ["shadcn/ui", "Aceternity UI", "MUI", "Magic UI", "Radix UI", "Chakra UI", "Mantine", "React Bits", "Animate Icons"],
+  data:     ["TanStack Table", "React Table"],
+  tooling:  ["Vite", "Lucide Icons"],
+  design:   ["Figma", "Illustrator", "Photoshop", "After Effects", "Freepik", "Dribbble"],
+  ai_tools: ["Claude Code", "Cursor", "Qodo", "OpenCode", "v0.dev", "Lovable", "Anima", "ChatGPT", "Gemini"],
   contact:  "Business.elmachhoune@gmail.com",
   funFact:  "I debug with console.log and I'm not ashamed 🙃",
 };
@@ -54,34 +59,114 @@ const mohamed = {
 
 ---
 
-<h2 align="center">🛠️ MERN Stack & Tools</h2>
+<h2 align="center">🛠️ Tech Stack & Tools</h2>
 
 <div align="center">
 
-  **Frontend**
+**Frontend**
 
-  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,css,tailwind&theme=dark" alt="frontend" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,threejs,vite&theme=dark" alt="frontend" />
 
-  <br/>
+<br/>
 
-  **Backend & Database**
+**Styling**
 
-  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,dotnet,cs,python&theme=dark" alt="backend" />
+<img src="https://skillicons.dev/icons?i=tailwind,bootstrap,css,sass&theme=dark" alt="styling" />
 
-  <br/>
+<br/>
 
-  **DevOps & Tools**
+**Backend & Frameworks**
 
-  <img src="https://skillicons.dev/icons?i=docker,git,github,postman,vscode&theme=dark" alt="devops" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,python,fastapi,dotnet,cs&theme=dark" alt="backend" />
+
+<br/>
+
+**Databases**
+
+<img src="https://skillicons.dev/icons?i=mongodb,mysql&theme=dark" alt="databases" />
+&nbsp;
+<img src="https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white" alt="xampp" />
+
+<br/>
+
+**UI Libraries & Design Systems**
+
+<img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white" alt="shadcn" />
+&nbsp;
+<img src="https://img.shields.io/badge/Aceternity%20UI-8B5CF6?style=for-the-badge&logo=sparkles&logoColor=white" alt="aceternity" />
+&nbsp;
+<img src="https://img.shields.io/badge/MUI-007FFF?style=for-the-badge&logo=mui&logoColor=white" alt="mui" />
+&nbsp;
+<img src="https://img.shields.io/badge/Magic%20UI-E11D48?style=for-the-badge&logo=magic&logoColor=white" alt="magicui" />
+&nbsp;
+<img src="https://img.shields.io/badge/Radix%20UI-161618?style=for-the-badge&logo=radixui&logoColor=white" alt="radix" />
+&nbsp;
+<img src="https://img.shields.io/badge/Chakra%20UI-319795?style=for-the-badge&logo=chakraui&logoColor=white" alt="chakra" />
+&nbsp;
+<img src="https://img.shields.io/badge/Mantine-339AF0?style=for-the-badge&logo=mantine&logoColor=white" alt="mantine" />
+&nbsp;
+<img src="https://img.shields.io/badge/React%20Bits-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="react bits" />
+&nbsp;
+<img src="https://img.shields.io/badge/Animate%20Icons-FF6B6B?style=for-the-badge&logo=lottiefiles&logoColor=white" alt="animate icons" />
+
+<br/>
+
+**Data & Tables**
+
+<img src="https://img.shields.io/badge/TanStack%20Table-FF4154?style=for-the-badge&logo=reacttable&logoColor=white" alt="tanstack table" />
+&nbsp;
+<img src="https://img.shields.io/badge/React%20Table-FF4154?style=for-the-badge&logo=reacttable&logoColor=white" alt="react table" />
+&nbsp;
+<img src="https://img.shields.io/badge/Lucide%20Icons-F56565?style=for-the-badge&logo=lucide&logoColor=white" alt="lucide" />
+
+<br/>
+
+**DevOps & Tools**
+
+<img src="https://skillicons.dev/icons?i=docker,git,github,postman,vscode&theme=dark" alt="devops" />
+
+<br/>
+
+**AI Coding Tools**
+
+<img src="https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="claude code" />
+&nbsp;
+<img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" alt="cursor" />
+&nbsp;
+<img src="https://img.shields.io/badge/Qodo-7C3AED?style=for-the-badge&logo=qodo&logoColor=white" alt="qodo" />
+&nbsp;
+<img src="https://img.shields.io/badge/OpenCode-0EA5E9?style=for-the-badge&logo=terminal&logoColor=white" alt="opencode" />
+&nbsp;
+<img src="https://img.shields.io/badge/v0.dev-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="v0" />
+&nbsp;
+<img src="https://img.shields.io/badge/Lovable-FF4D6D?style=for-the-badge&logo=heart&logoColor=white" alt="lovable" />
+&nbsp;
+<img src="https://img.shields.io/badge/Anima-6B21A8?style=for-the-badge&logo=anima&logoColor=white" alt="anima" />
+&nbsp;
+<img src="https://img.shields.io/badge/ChatGPT-10A37F?style=for-the-badge&logo=openai&logoColor=white" alt="chatgpt" />
+&nbsp;
+<img src="https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" alt="gemini" />
 
 </div>
 
 ---
 
-<h2 align="center">🎨 Design Tools</h2>
+<h2 align="center">🎨 Design Tools & Inspiration</h2>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=figma,illustrator,photoshop,xd,ae&theme=dark" alt="design icons" />
+
+**Tools**
+
+<img src="https://skillicons.dev/icons?i=figma,illustrator,photoshop,xd,ae&theme=dark" alt="design tools" />
+
+<br/>
+
+**Resources & Inspiration**
+
+<img src="https://img.shields.io/badge/Freepik-1273EB?style=for-the-badge&logo=freepik&logoColor=white" alt="freepik" />
+&nbsp;
+<img src="https://img.shields.io/badge/Dribbble-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white" alt="dribbble" />
+
 </div>
 
 ---
